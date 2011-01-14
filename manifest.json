@@ -1,0 +1,12 @@
+{
+  "name": "Pivotal Custom CSS",
+  "version": "0.1",
+  "description": "Some tweaks to the CSS for Pivotal Tracker to make it easier to use",
+  "content_scripts": [
+    {
+      "matches": ["https://www.pivotaltracker.com/*"],
+      "run_at": "document_end",
+      "css": ["pivotal.css"]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.underEdit .storyDetails {
+  padding-left: 20px !important;
+}
+
+.storyDetails .notesTextArea {
+  height: 150px;
+}
